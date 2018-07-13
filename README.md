@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/hft-stuttgart-ipr-assignments/hft-asgmt-css.svg?branch=master)](https://travis-ci.org/hft-stuttgart-ipr-assignments/hft-asgmt-css)
 
-# hft-asgmt-html
+# hft-asgmt-css
 
 ## TODO
   - [ ] Add style.css
