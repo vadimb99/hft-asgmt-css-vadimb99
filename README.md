@@ -3,7 +3,6 @@
 # hft-asgmt-html
 
 ## TODO
-- index.html:
   - [ ] Add style.css
   - [ ] Reference `style.css` in html file
   - [ ] Use `display: flex;` on form
