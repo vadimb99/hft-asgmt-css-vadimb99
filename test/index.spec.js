@@ -6,6 +6,7 @@ let page;
 let browser;
 const styles = `file://${path.resolve('style.css')}`
 const indexPage = `file://${path.resolve('index.html')}`
+const addEntryPage = `file://${path.resolve('add-entry.html')}`
 const width = 1440;
 const height = 900;
 
@@ -19,7 +20,10 @@ describe('index HTML', () => {
     await page.setViewport({ width, height });
   });
   afterAll(async () => {
+    await page.goto(indexPage);
     await page.screenshot({path: 'index.png'});
+    await page.goto(addEntryPage);
+    await page.screenshot({path: 'add-entry.png'});
     browser.close();
   });
 
