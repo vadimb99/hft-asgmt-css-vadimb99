@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest"
   },
-  "author": "Mathias Maciossek <mathias@threethinj.io>",
+  "author": "Mathias Maciossek <mathias@threethink.io>",
   "license": "MIT",
   "jest": {
     "transform": {
