@@ -31,10 +31,10 @@ describe('index HTML', () => {
     expect(styles).not.toBeNull();
   });
 
-  it('Should use \'display: float\' on body ', (done) => {
+  it('Should use \'display: flex\' on body ', (done) => {
     fs.readFile(path.resolve('style.css'), 'utf8', function (err,data) {
       expect(data.indexOf('display') > -1).toBeTruthy()
-      expect(data.indexOf('float') > -1).toBeTruthy()
+      expect(data.indexOf('flex') > -1).toBeTruthy()
       done()
     });
   });
