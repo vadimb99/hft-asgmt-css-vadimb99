@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/hft-stuttgart-ipr-assignments/hft-asgmt-css.svg?branch=master)](https://travis-ci.org/hft-stuttgart-ipr-assignments/hft-asgmt-css)
+[![Build Status](https://travis-ci.org/hft-stuttgart-ipr/hft-asgmt-css-USERNAME.svg?branch=master)](https://travis-ci.org/hft-stuttgart-ipr/hft-asgmt-css-USERNAME)
 
 # hft-asgmt-css
 
