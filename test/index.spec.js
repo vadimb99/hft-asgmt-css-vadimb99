@@ -27,8 +27,11 @@ describe('index HTML', () => {
     browser.close();
   });
 
-  it('style.css should exist', () => {
-    expect(styles).not.toBeNull();
+  it('style.css should exist', (done) => {
+    fs.readFile(path.resolve('style.css'), (err, data) => {
+      expect(err).toBeNull();
+      done();
+    })
   });
 
   it('Should use \'display: flex\' on body ', (done) => {
