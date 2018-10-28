@@ -8,6 +8,6 @@
   - [ ] Use `display: flex;` on body
   - [ ] Style the table somehow
   - [ ] Use a background image somewhere that does not repeat
-  - [ ] Use a hover effekt on the link
+  - [ ] Use a hover effekt on **all** links
   - [ ] Use another font
 
